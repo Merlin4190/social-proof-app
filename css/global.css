@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+*{
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+}
+
+body{
+    background-color: #F2F2F2;
+    padding: 1em;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro h1{
+    font-weight: bold;
+    color: #512051;
+}
+
+.intro p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #927B91;
+}
+
+.rating{
+    font-size: 13px;
+    color: #512051;
+}
+
+.rating .rate{
+    background-color: #F7F2F7;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.testimony{
+    background-color: #512051;
+    border-radius: 0.5em;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 2em;
+}
+
+.testimony .bio{
+    display: flex;
+    padding: 0;
+}
+
+.testimony .bio .name{
+    margin-top: 0;
+    padding-left: 1em;
+}
+
+.testimony .bio .status{
+    color: #EE69A4;
+    margin-top: -10px;
+    padding-left: 1em;
+}
+
+@media screen and (min-width: 800px) {
+    .rating div:nth-child(2){
+        margin-left: 50px;
+    }
+
+    .rating div:last-child{
+        margin-left: 100px;
+    }
+
+    .rating .rate{
+        display: flex;
+        padding-left: 2em;
+    }
+
+    .rating .rate p{
+        padding-top: 5px;
+        padding-left: 2em;
+    }
+
+    .feedback .testimony:nth-child(2){
+        margin-top: 20px;
+    }
+
+    .feedback .testimony:last-child{
+        margin-top: 40px;
+    }
+}
